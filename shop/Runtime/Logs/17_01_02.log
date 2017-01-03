@@ -7717,3 +7717,1308 @@ INFO: [ view_end ] --START--
 INFO: ShowPageTrace Behavior ::run [ RunTime:0.002866s ]
 INFO: [ view_end ] --END-- [ RunTime:0.003135s ]
 
+[ 2017-01-02T18:11:15+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002414s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002715s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002718s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.038433s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.028820s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026891s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001666s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003495s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002608s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010393s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002061s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002357s ]
+
+[ 2017-01-02T18:11:40+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002484s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002783s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002585s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.019298s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.006184s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029447s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001913s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002118s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001327s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008057s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002675s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003064s ]
+
+[ 2017-01-02T18:11:45+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002451s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002750s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002158s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.072253s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.002984s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026025s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001568s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001827s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001325s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001754s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007250s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004010s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004283s ]
+
+[ 2017-01-02T18:23:32+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002763s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003098s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002176s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.015536s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.042199s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for ../Runtime/Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php E:\wamp\www\github\thinkphp\ThinkPHP\Extend\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+ERR: Syntax Error in template "../Tpl/admin\Goods\showList.html"  on line 12 ".tr_color{background-color: #9F88FF}"  - Unexpected ": ", expected one of: "}" , " "
+
+[ 2017-01-02T18:24:11+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002444s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002747s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002144s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.011166s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.002929s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for ../Runtime/Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php E:\wamp\www\github\thinkphp\ThinkPHP\Extend\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(../Runtime/Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory E:\wamp\www\github\thinkphp\ThinkPHP\Extend\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined index: Think E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 33 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 33 行.
+NOTIC: [8] Undefined index: Think E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 46 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 46 行.
+NOTIC: [8] Undefined index: Think E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 81 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 81 行.
+NOTIC: [8] Undefined index: Think E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index: Think E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: Think E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 96 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 96 行.
+NOTIC: [8] Undefined index: Think E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 98 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 98 行.
+NOTIC: [8] Undefined index: Think E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 110 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 110 行.
+NOTIC: [8] Undefined index: Think E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 112 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 112 行.
+NOTIC: [8] Undefined index: Think E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 124 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 124 行.
+NOTIC: [8] Undefined index: Think E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 126 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 126 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.290777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.291043s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001825s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001448s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001070s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006614s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001761s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001991s ]
+
+[ 2017-01-02T18:24:11+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/mine.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002220s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002510s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002978s ]
+
+[ 2017-01-02T18:24:38+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003881s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004445s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002132s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.010759s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.004069s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: Smarty E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 33 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 33 行.
+NOTIC: [8] Undefined index: Smarty E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 46 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 46 行.
+NOTIC: [8] Undefined index: Smarty E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 81 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 81 行.
+NOTIC: [8] Undefined index: Smarty E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index: Smarty E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: Smarty E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 96 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 96 行.
+NOTIC: [8] Undefined index: Smarty E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 98 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 98 行.
+NOTIC: [8] Undefined index: Smarty E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 110 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 110 行.
+NOTIC: [8] Undefined index: Smarty E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 112 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 112 行.
+NOTIC: [8] Undefined index: Smarty E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 124 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 124 行.
+NOTIC: [8] Undefined index: Smarty E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 126 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 126 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.445517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.445787s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001933s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001787s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001261s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001985s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007646s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002064s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002304s ]
+
+[ 2017-01-02T18:24:38+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/mine.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002146s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002579s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002017s ]
+
+[ 2017-01-02T18:26:47+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002341s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002703s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001948s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.015965s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.004468s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: Think E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 33 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 33 行.
+NOTIC: [8] Undefined index: Think E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 46 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 46 行.
+NOTIC: [8] Undefined index: Think E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 81 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 81 行.
+NOTIC: [8] Undefined index: Think E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index: Think E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: Think E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 96 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 96 行.
+NOTIC: [8] Undefined index: Think E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 98 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 98 行.
+NOTIC: [8] Undefined index: Think E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 110 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 110 行.
+NOTIC: [8] Undefined index: Think E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 112 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 112 行.
+NOTIC: [8] Undefined index: Think E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 124 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 124 行.
+NOTIC: [8] Undefined index: Think E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 126 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 126 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.305314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.305707s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001874s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001549s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001312s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001853s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007358s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002002s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002243s ]
+
+[ 2017-01-02T18:26:47+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/mine.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002579s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002999s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003763s ]
+
+[ 2017-01-02T18:27:00+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002696s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003026s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002130s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.012874s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.004617s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.438584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.438907s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001821s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001730s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001267s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007390s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002330s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002764s ]
+
+[ 2017-01-02T18:27:43+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003369s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003713s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002016s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.011743s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.003045s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.185387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.185679s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001698s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001461s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002715s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008438s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001762s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001994s ]
+
+[ 2017-01-02T18:27:44+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002338s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002632s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002051s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.012576s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.003264s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029549s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002264s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001530s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001290s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007476s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001697s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001972s ]
+
+[ 2017-01-02T18:27:44+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002947s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003258s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002730s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.011271s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.003141s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.111862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112147s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001651s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001579s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001302s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006975s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002004s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002250s ]
+
+[ 2017-01-02T18:56:23+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003068s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003400s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004550s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.059567s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.003909s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.266965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.267242s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002442s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001570s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001259s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001846s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007830s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001892s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002255s ]
+
+[ 2017-01-02T18:56:44+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002593s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002949s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002207s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.015178s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.003094s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 83 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 85 行.
+NOTIC: [8] Undefined index:  E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.270060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.270326s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002403s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001541s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001287s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007812s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001910s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002174s ]
+
+[ 2017-01-02T18:56:54+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002556s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002928s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002214s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.011293s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.003035s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 87 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.232033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.232317s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002230s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002191s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001399s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008834s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001989s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002232s ]
+
+[ 2017-01-02T18:57:17+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003261s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003598s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002121s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.064323s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.002891s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.234370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.234686s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002266s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001675s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001243s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007680s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002220s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002473s ]
+
+[ 2017-01-02T18:57:21+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002209s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002504s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002126s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.011356s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.002901s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+NOTIC: [8] Undefined index: goods_num E:\wamp\www\github\thinkphp\shop\Runtime\Cache\8b59a7480424a2c6a407d6a6415d5a7975993e1a.file.showList.html.php 第 90 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.236085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.236400s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002172s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001719s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001240s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007539s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001877s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002120s ]
+
+[ 2017-01-02T18:57:36+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002462s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002781s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002014s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.011117s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.002955s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.248541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.248845s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002331s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001647s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001273s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001920s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007845s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001857s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002095s ]
+
+[ 2017-01-02T18:59:04+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004721s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005115s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002304s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.013302s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.003046s ]
+INFO: [ view_parse ] --START--
+ERR: Syntax Error in template "../Tpl/admin\Goods\showList.html"  on line 58 "&lt;td&gt;{$v['goods_create_time']|date_formate:'%Y-%M-%d %H:%M:%S'}&lt;/td&gt;" unknown modifier "date_formate"
+
+[ 2017-01-02T18:59:35+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002719s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003090s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003434s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.045092s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.004600s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.356967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.357464s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002232s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001617s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001522s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008008s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001809s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002043s ]
+
+[ 2017-01-02T19:01:49+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002428s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002766s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002035s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.012237s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.004560s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.340516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.340898s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003022s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004428s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002564s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013951s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002688s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003030s ]
+
+[ 2017-01-02T19:02:22+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002889s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003188s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002810s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.073487s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.002955s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.238344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.238652s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002036s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001601s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001495s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007567s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001727s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001958s ]
+
+[ 2017-01-02T19:02:29+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002440s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002783s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002362s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.010594s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.003381s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.239868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.240201s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002067s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001561s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001070s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007009s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001742s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001992s ]
+
+[ 2017-01-02T19:02:43+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002347s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002668s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002676s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.033701s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.028203s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.264532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.264817s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003379s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001842s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001242s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009326s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002183s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002425s ]
+
+[ 2017-01-02T19:03:01+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002399s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002699s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002193s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.011315s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.003205s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.250930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.251228s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002266s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001476s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001104s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007244s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001837s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002071s ]
+
+[ 2017-01-02T19:03:20+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002771s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003131s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003466s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.012485s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.003229s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.266013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.266305s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002198s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001536s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001539s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008101s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001822s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002065s ]
+
+[ 2017-01-02T19:03:27+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002363s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002763s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002130s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.041980s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.003729s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.242190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.242477s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002067s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001489s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001056s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007294s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001911s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002155s ]
+
+[ 2017-01-02T19:03:36+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002300s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002640s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002179s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.010934s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.003078s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.248220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.248524s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002294s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001563s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001303s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007672s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001989s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002225s ]
+
+[ 2017-01-02T19:03:55+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002726s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003040s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001979s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.011565s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.003051s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.432750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.433168s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003611s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001541s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001351s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001912s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009255s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001865s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002219s ]
+
+[ 2017-01-02T19:04:12+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002102s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002406s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002005s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.012496s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.003022s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.248235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.248553s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002216s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001507s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001108s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007222s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001836s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002063s ]
+
+[ 2017-01-02T19:04:26+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002420s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002719s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003868s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.041488s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.002871s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.268435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.268769s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003540s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001961s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001200s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009594s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002051s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002292s ]
+
+[ 2017-01-02T19:04:48+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002636s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003091s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002220s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.014480s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.005029s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.274049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.274348s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003229s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002411s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001604s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011400s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002151s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002488s ]
+
+[ 2017-01-02T19:06:09+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003724s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004043s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002441s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.027665s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( `goods_id` = 17 )  [ RunTime:0.143226s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035795s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001589s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001677s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001305s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001899s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007239s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001936s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002177s ]
+
+[ 2017-01-02T19:11:08+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002483s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003294s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002807s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.011375s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.003081s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( `goods_id` = 7 )  [ RunTime:0.114949s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( `goods_id` = 17 )  [ RunTime:0.001199s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033472s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001521s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001476s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001242s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002889s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008007s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002038s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002295s ]
+
+[ 2017-01-02T19:11:08+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003549s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004116s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001986s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.017667s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.004448s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( `goods_id` = 7 )  [ RunTime:0.001720s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( `goods_id` = 17 )  [ RunTime:0.001202s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044242s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001390s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001338s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001049s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006174s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001838s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002089s ]
+
+[ 2017-01-02T19:11:09+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002093s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002387s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002063s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.016376s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.015115s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( `goods_id` = 7 )  [ RunTime:0.000906s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( `goods_id` = 17 )  [ RunTime:0.000932s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035279s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001256s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001908s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000897s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001804s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006529s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001751s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002028s ]
+
+[ 2017-01-02T19:11:23+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002005s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002320s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002002s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.078923s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.003025s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( `goods_id` = 7 )  [ RunTime:0.000921s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( `goods_id` = 17 )  [ RunTime:0.000858s ]
+
+[ 2017-01-02T19:11:36+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003755s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004062s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002134s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.011729s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.002996s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( `goods_id` = 7 )  [ RunTime:0.000825s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( `goods_id` = 17 )  [ RunTime:0.000903s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002278s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001719s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001162s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008083s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001801s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002041s ]
+
+[ 2017-01-02T19:12:03+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002549s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003340s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006889s ]
+SQL: SHOW COLUMNS FROM `sw_goods` [ RunTime:0.015370s ]
+SQL: SELECT * FROM `sw_goods`  [ RunTime:0.003921s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( `goods_id` = 7 )  [ RunTime:0.000950s ]
+SQL: SELECT * FROM `sw_goods` WHERE ( `goods_id` IN ('17',' 20',' 23') )  [ RunTime:0.075210s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034704s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001629s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001714s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001161s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006981s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001991s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002237s ]
+
+[ 2017-01-02T21:04:49+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/showList
+ERR: Model:while您所请求的方法不存在！
+
+[ 2017-01-02T22:05:32+08:00 ] 127.0.0.1 /shop/go/index.php
+ERR: Syntax Error in template "../Tpl/home\Index\index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2017-01-02T22:05:48+08:00 ] 127.0.0.1 /shop/go/
+ERR: Syntax Error in template "../Tpl/home\Index\index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+

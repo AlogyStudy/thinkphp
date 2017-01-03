@@ -22,6 +22,12 @@ return array(
   // 出于性能考虑，要把数据表字段放入缓存中，下次访问就避免执行SQL语句重复执行。 
   // 前提，是生产模式,字段缓存有效.
   'DB_FIELDS_CACHE'       => true,         // 启用字段缓存
-  	
+
+  
+  'TMPL_ENGINE_TYPE'	  	=>  'Smarty',     // 修改模板引擎
+  
+  'SHOW_PAGE_TRACE' 		  =>   true,   // 显示页面Trace信息
+  
+  
 );
 ?>
