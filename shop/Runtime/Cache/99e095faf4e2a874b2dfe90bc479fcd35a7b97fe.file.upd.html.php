@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2017-01-03 23:30:38
+<?php /* Smarty version Smarty-3.1.6, created on 2017-01-05 22:19:05
          compiled from "../Tpl/admin\Goods\upd.html" */ ?>
 <?php /*%%SmartyHeaderCode:16461586bb8e0b6fcb6-26382962%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '99e095faf4e2a874b2dfe90bc479fcd35a7b97fe' => 
     array (
       0 => '../Tpl/admin\\Goods\\upd.html',
-      1 => 1483457407,
+      1 => 1483625898,
       2 => 'file',
     ),
   ),
@@ -46,7 +46,10 @@ mine.css" type="text/css" rel="stylesheet">
         <div></div>
 
         <div style="font-size: 13px;margin: 10px 5px">
-            <form action="./admin.php?c=goods&a=add" method="post" enctype="multipart/form-data">
+            <form action="<?php echo @__SELF__;?>
+" method="post" enctype="multipart/form-data">
+            <input type="hidden" name="goods_id" value="<?php echo $_smarty_tpl->tpl_vars['info']->value['goods_id'];?>
+" />	
             <table border="1" width="100%" class="table_a">
                 <tr>
                     <td>商品名称</td>

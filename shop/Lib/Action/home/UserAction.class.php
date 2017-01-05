@@ -29,7 +29,30 @@
 		
 		// 注册操作
 		public function register() {
-			$this->display();
+			
+			$user_model = new UserModel();
+			var_dump($_POST);
+			
+			if ( !empty($_POST) ) {
+				
+				// 表单验证
+				$result = $user_model->create();
+				if ( $result ) {
+					$user_id = $user_model->add();
+					
+					if ( isset($user_id) ) {
+						echo '注册成功';
+					} else {
+						echo '注册失败';
+					}
+				} else {
+					echo $user_model->getError();
+				}
+				
+			} else {
+				$this->display();
+			}
+			
 		} 
 		
 		

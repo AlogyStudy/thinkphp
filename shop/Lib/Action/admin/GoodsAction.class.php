@@ -106,6 +106,10 @@
 			
 			$rst = $goods_model->add(); // 返回影响记录的条数
 			
+			if ( $rst ) {
+				$this->success('添加成功', __URL__ . '/showList');
+			}
+			
 			$this->display();
 		}
 		
@@ -129,9 +133,12 @@
 
 				// 收集表单数据
 				$data = $goods_model->create();
-				$cnt = $goods_model->add($data);
+				$rst = $goods_model->add($data);
 				
-				echo '写入成功' . $cnt; 
+				if ( $rst ) {
+					$this->success('添加成功', __URL__ . '/showList');
+				}
+				 
 					
 			} else {
 				// 展示表单
@@ -175,7 +182,7 @@
 		}
 		
 		// 修改商品
-		public function upd( $goods_id ) {
+		public function upd( $goods_id = 1 ) {
 		
 // 获取参数形式
 // http://www.tp.com/index.php?m=控制器&a=操作&goods_id=100&goods_price=2300
@@ -185,10 +192,20 @@
 // }
 			
 			$goods_model = new GoodsModel();
-
-			if ( empty($goods_id) ) {
+			
+			if ( !empty($_POST) ) {
 				
+				// 修改表单	
+				$goods_model->create(); // 字段中需要 主键
+				$rst = $goods_model->save();
+				
+				// 有修改数据
+				if ( $rst ) {
+					$this->success('修改成功', __URL__ .'/showList');
+				} 
+								
 			} else {
+				
 				// 查询数据
 				$info = $goods_model->find($goods_id);
 				// 设置值

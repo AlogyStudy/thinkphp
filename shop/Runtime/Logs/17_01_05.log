@@ -1,0 +1,39 @@
+[ 2017-01-05T21:47:44+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/upd
+ERR: 参数错误或者未定义:goods_id
+
+[ 2017-01-05T22:22:35+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/upd/goods_id/3
+ERR: Unable to load template file 'w\github\thinkphp\ThinkPHP/Tpl/dispatch_jump.tpl'
+
+[ 2017-01-05T22:29:43+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/upd/goods_id/3
+ERR: Unable to load template file 'w\github\thinkphp\ThinkPHP/Tpl/dispatch_jump.tpl'
+
+[ 2017-01-05T22:31:50+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/upd/goods_id/3
+ERR: Unable to load template file 'w\github\thinkphp\ThinkPHP/Tpl/dispatch_jump.tpl'
+
+[ 2017-01-05T22:35:50+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/upd/goods_id/3
+ERR: Unable to load template file 'w\github\thinkphp\ThinkPHP/Tpl/dispatch_jump.tpl'
+
+[ 2017-01-05T22:37:12+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/upd/goods_id/3
+ERR: Unable to load template file 'w\github\thinkphp\ThinkPHP/Tpl/dispatch_jump.tpl'
+
+[ 2017-01-05T22:39:34+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/upd/goods_id/3
+ERR: Unable to load template file 'w\github\thinkphp\ThinkPHP/Tpl/dispatch_jump.tpl'
+
+[ 2017-01-05T22:44:06+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/upd/goods_id/3
+ERR: Unable to load template file 'w\github\thinkphp\ThinkPHP/Tpl/dispatch_jump.tpl'
+
+[ 2017-01-05T22:44:23+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/upd/goods_id/3
+ERR: Unable to load template file 'w\github\thinkphp\ThinkPHP/Tpl/dispatch_jump.tpl'
+
+[ 2017-01-05T22:46:14+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Goods/upd/goods_id/3
+ERR: Unable to load template file 'in/dispatch_jump.tpl'
+
+[ 2017-01-05T23:20:33+08:00 ] 127.0.0.1 /shop/go/index.php/
+ERR: Syntax Error in template "../Tpl/home\Index\index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2017-01-05T23:20:57+08:00 ] 127.0.0.1 /shop/go/index.php/User/register
+ERR: Action:add您所请求的方法不存在！
+
+[ 2017-01-05T23:23:29+08:00 ] 127.0.0.1 /shop/go/index.php/User/register
+ERR: 模板不存在[../Tpl/home/E/\wamp\www\github\thinkphp\ThinkPHP/Tpl/dispatch_jump.tpl.html]
+

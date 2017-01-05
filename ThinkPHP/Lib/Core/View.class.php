@@ -142,9 +142,6 @@ class View {
      * @return string
      */
     public function parseTemplate($template='') {
-        if(is_file($template)) {
-            return $template;
-        }
         $template = str_replace(':', '/', $template);
         // 获取当前主题名称
         $theme = $this->getTemplateTheme();
@@ -162,7 +159,11 @@ class View {
             define('THEME_PATH',   TMPL_PATH.$group.$theme);
             define('APP_TMPL_PATH',__ROOT__.'/'.APP_NAME.(APP_NAME?'/':'').basename(TMPL_PATH).'/'.$group.$theme);
         }
-
+				
+        if(is_file($template)) {
+            return $template;
+        }
+				
         // 分析模板文件规则
         if('' == $template) {
             // 如果模板文件名为空 按照默认规则定位

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2017-01-02 22:05:59
+<?php /* Smarty version Smarty-3.1.6, created on 2017-01-05 23:07:49
          compiled from "../Tpl/home\User\login.html" */ ?>
 <?php /*%%SmartyHeaderCode:16831586a5e47385284-62284503%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'eee8ec9d90f85611a5ebe13b0009ded3b4d51464' => 
     array (
       0 => '../Tpl/home\\User\\login.html',
-      1 => 1483279997,
+      1 => 1483628859,
       2 => 'file',
     ),
   ),
@@ -15,13 +15,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'variables' => 
-  array (
-    'Think' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.6',
   'unifunc' => 'content_586a5e47b0878',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_586a5e47b0878')) {function content_586a5e47b0878($_smarty_tpl) {?><!DOCTYPE html>
 <html>
@@ -33,14 +29,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
         <title>用户中心_YONGDA商城 - Powered by YongDa</title>
 
-        <link href="<?php echo $_smarty_tpl->tpl_vars['Think']->value['const']['CSS_URL'];?>
+        <link href="<?php echo @CSS_URL;?>
 style.css" rel="stylesheet" type="text/css" />
 
     </head>
     <body>
         <div class="block clearfix" style="position: relative; height: 98px;">
             <a href="#" name="top">
-                <img class="logo" src="<?php echo $_smarty_tpl->tpl_vars['Think']->value['const']['IMAGE_URL'];?>
+                <img class="logo" src="<?php echo @IMAGE_URL;?>
 logo.gif">
             </a>
 
@@ -83,7 +79,7 @@ logo.gif">
 
             <form id="searchForm" method="get" >
                 <input name="keywords" id="keyword" type="text" />
-                <input name="imageField" value=" " class="go" style="cursor: pointer; background: url('<?php echo $_smarty_tpl->tpl_vars['Think']->value['const']['IMAGE_URL'];?>
+                <input name="imageField" value=" " class="go" style="cursor: pointer; background: url('<?php echo @IMAGE_URL;?>
 sousuo.gif') no-repeat scroll 0% 0% transparent; width: 39px; height: 20px; border: medium none; float: left; margin-right: 15px; vertical-align: middle;" type="submit">
 
             </form>
@@ -92,18 +88,18 @@ sousuo.gif') no-repeat scroll 0% 0% transparent; width: 39px; height: 20px; bord
 
         <div class="header_bg_b">
             <div class="f_l" style="padding-left: 10px;">
-                <img src="<?php echo $_smarty_tpl->tpl_vars['Think']->value['const']['IMAGE_URL'];?>
+                <img src="<?php echo @IMAGE_URL;?>
 biao6.gif">
                     北京市区，现在下单(截至次日00:30已出库)，<b>明天上午(9-14点)</b>送达 <b>免运费火热进行中！</b>
             </div>
 
             <div class="f_r" style="padding-right: 10px;">
-                <img style="vertical-align: middle;" src="<?php echo $_smarty_tpl->tpl_vars['Think']->value['const']['IMAGE_URL'];?>
+                <img style="vertical-align: middle;" src="<?php echo @IMAGE_URL;?>
 biao3.gif">
 
                     <span class="cart" id="ECS_CARTINFO">
                         <a href="#" title="查看购物车">您的购物车中有 0 件商品，总计金额 ￥0.00元。</a></span>
-                    <a href="#"><img style="vertical-align: middle;" src="<?php echo $_smarty_tpl->tpl_vars['Think']->value['const']['IMAGE_URL'];?>
+                    <a href="#"><img style="vertical-align: middle;" src="<?php echo @IMAGE_URL;?>
 biao7.gif"></a>
             </div>
         </div>
@@ -162,7 +158,7 @@ biao7.gif"></a>
                         2. 收藏您关注的商品<br />
                         3. 享受会员积分制度<br />
                         4. 订阅本店商品信息  <br />
-                        <a href="#"><img src="<?php echo $_smarty_tpl->tpl_vars['Think']->value['const']['IMAGE_URL'];?>
+                        <a href="#"><img src="<?php echo @IMAGE_URL;?>
 bnt_ur_reg.gif"></a>
                     </div>
                 </div>
@@ -171,7 +167,7 @@ bnt_ur_reg.gif"></a>
             </div>
             <div class="blank"></div>
             <div class="block">
-                <a href="#" target="_blank" title="YONGDA商城"><img alt="YONGDA商城" src="<?php echo $_smarty_tpl->tpl_vars['Think']->value['const']['IMAGE_URL'];?>
+                <a href="#" target="_blank" title="YONGDA商城"><img alt="YONGDA商城" src="<?php echo @IMAGE_URL;?>
 di.jpg"></a>
 
                 <div class="blank"></div>
@@ -230,7 +226,7 @@ di.jpg"></a>
             <div id="bottomNav" class="box block">
                 <div class="box_1">
                     <div class="links clearfix"> 
-                        <a href="#" target="_blank" title="YONGDA商城"><img src="<?php echo $_smarty_tpl->tpl_vars['Think']->value['const']['IMAGE_URL'];?>
+                        <a href="#" target="_blank" title="YONGDA商城"><img src="<?php echo @IMAGE_URL;?>
 logo.gif" alt="YONGDA商城" border="0"></a>
 
 
