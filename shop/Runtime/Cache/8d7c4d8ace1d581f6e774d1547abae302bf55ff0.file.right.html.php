@@ -1,20 +1,49 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<?php /* Smarty version Smarty-3.1.6, created on 2017-01-03 23:05:37
+         compiled from "../Tpl/admin\Index\right.html" */ ?>
+<?php /*%%SmartyHeaderCode:24133586bbd9d8697e9-78790710%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '8d7c4d8ace1d581f6e774d1547abae302bf55ff0' => 
+    array (
+      0 => '../Tpl/admin\\Index\\right.html',
+      1 => 1483455936,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '24133586bbd9d8697e9-78790710',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.6',
+  'unifunc' => 'content_586bbd9dac3be',
+  'variables' => 
+  array (
+    'Tink' => 0,
+  ),
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_586bbd9dac3be')) {function content_586bbd9dac3be($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
     <head>
         <meta http-equiv=content-type content="text/html; charset=utf-8" />
-        <link href="{$Tink.const.ADMIN_CSS_URL}admin.css" type="text/css" rel="stylesheet" />
+        <link href="<?php echo $_smarty_tpl->tpl_vars['Tink']->value['const']['ADMIN_CSS_URL'];?>
+admin.css" type="text/css" rel="stylesheet" />
     </head>
     <body>
         <table cellspacing=0 cellpadding=0 width="100%" align=center border=0>
             <tr height=28>
-                <td background={$smarty.const.ADMIN_IMAGE_URL}title_bg1.jpg>当前位置: </td></tr>
+                <td background=<?php echo @ADMIN_IMAGE_URL;?>
+title_bg1.jpg>当前位置: </td></tr>
             <tr>
                 <td bgcolor=#b1ceef height=1></td></tr>
             <tr height=20>
-                <td background={$smarty.const.ADMIN_IMAGE_URL}shadow_bg.jpg></td></tr></table>
+                <td background=<?php echo @ADMIN_IMAGE_URL;?>
+shadow_bg.jpg></td></tr></table>
         <table cellspacing=0 cellpadding=0 width="90%" align=center border=0>
             <tr height=100>
-                <td align=middle width=100><img height=100 src="{$smarty.const.ADMIN_IMAGE_URL}admin_p.gif" 
+                <td align=middle width=100><img height=100 src="<?php echo @ADMIN_IMAGE_URL;?>
+admin_p.gif" 
                                                 width=90></td>
                 <td width=60>&nbsp;</td>
                 <td>
@@ -33,7 +62,8 @@
                 <td></td></tr>
             <tr height=22>
                 <td style="padding-left: 20px; font-weight: bold; color: #ffffff" 
-                    align=middle background={$smarty.const.ADMIN_IMAGE_URL}title_bg2.jpg>您的相关信息</td></tr>
+                    align=middle background=<?php echo @ADMIN_IMAGE_URL;?>
+title_bg2.jpg>您的相关信息</td></tr>
             <tr bgcolor=#ecf4fc height=12>
                 <td></td></tr>
             <tr height=20>
@@ -69,4 +99,4 @@
             </tr>
         </table>
     </body>
-</html>
+</html><?php }} ?>

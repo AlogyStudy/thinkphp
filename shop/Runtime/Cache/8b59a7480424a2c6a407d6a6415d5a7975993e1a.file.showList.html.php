@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2017-01-02 19:04:48
+<?php /* Smarty version Smarty-3.1.6, created on 2017-01-03 23:13:35
          compiled from "../Tpl/admin\Goods\showList.html" */ ?>
 <?php /*%%SmartyHeaderCode:12181586a2a4aec5ad5-60700806%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8b59a7480424a2c6a407d6a6415d5a7975993e1a' => 
     array (
       0 => '../Tpl/admin\\Goods\\showList.html',
-      1 => 1483355085,
+      1 => 1483456405,
       2 => 'file',
     ),
   ),
@@ -99,7 +99,8 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
                         <td><?php echo smarty_modifier_date_format($_smarty_tpl->tpl_vars['v']->value['goods_create_time'],'%Y-%I-%d %H:%M:%S');?>
 </td>
                         <td><a href="<?php echo @__GROUP__;?>
-/Good/upd">修改</a></td>
+/Goods/upd/goods_id/<?php echo $_smarty_tpl->tpl_vars['v']->value['goods_id'];?>
+">修改</a></td>
                         <td><a href="javascript:;" onclick="delete_product(1)">删除</a></td>
                     </tr>
                     <?php } ?>

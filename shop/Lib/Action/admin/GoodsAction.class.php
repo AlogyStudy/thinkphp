@@ -72,7 +72,7 @@
 
 				// 执行原生SQL
 				// select g.goods_name, g.goods_price, c.cat_name from sw_goods as g left join sw_category as c on g.goods_category_id = c.cat_id;
-				$sql = "select g.goods_name, g.goods_price, c.cat_name from sw_goods as g left join sw_category as c on g.goods_category_id = c.cat_id";
+				$sql = "select g.goods_id, g.goods_name, g.goods_price, c.cat_name from sw_goods as g left join sw_category as c on g.goods_category_id = c.cat_id";
 				$info = $goods_model->query($sql);
 			
 				$this->assign('info', $info);				
@@ -82,29 +82,121 @@
 		}
 		
 		// 添加商品
-		public function add() {
+		public function add1() {
 			
 			$goods_model = new GoodsModel();
 			
 			// 实现数据添加
 			// 数组下标与数据库字段名一致.
-			$data = array(
-				'goods_name' => 'htc100',
-				'goods_price' => '3999',
-				'goods_numer' => 45,
-				'goods_weight' => 103
-			);
+//			$data = array(
+//				'goods_name' => 'htc100',
+//				'goods_price' => '3999',
+//				'goods_numer' => 45,
+//				'goods_weight' => 103
+//			);
 			
-			$rst = $goods_model->add($data);
+//			$rst = $goods_model->add($data);
+
+			// AR方式实现数据添加
+			// 对象调用不存在的属性需要调用魔术方法`__set()`
+			$goods_model->goods_name = 'iphone7puls';
+			$goods_model->goods_price = '5700';
+			$goods_model->goods_number = 41;
+			$goods_model->goods_weight = 100;
 			
-			var_dump($rst);
+			$rst = $goods_model->add(); // 返回影响记录的条数
+			
+			$this->display();
+		}
+		
+		// 添加商品
+		public function add() {
+			
+			// Goods模型
+			$goods_model = new GoodsModel();
+			if ( !empty($_POST) ) {
+					
+				// 获取数据
+					// 数组方式
+//				$data = $_POST;
+//				$cnt = $goods_model->add($data);
+
+					// AR方式
+//					foreach( $_POST as $k => $v ) {
+//						$goods_model->$k = $v;
+//					}
+//					$goods_model->add();
+
+				// 收集表单数据
+				$data = $goods_model->create();
+				$cnt = $goods_model->add($data);
+				
+				echo '写入成功' . $cnt; 
+					
+			} else {
+				// 展示表单
+				$this->display();
+			}
+			
+		} 
+		
+		// 修改商品
+		public function upd1() {
+			
+			$goods_model = new GoodsModel();
+			
+			// 修改数据， 需要设置主键ID和where条件
+//			$data = array(
+//				'goods_id' => 55,
+//				'goods_name' => '红米',
+//				'goods_price' => 4000
+//			);
+//			$rst = $goods_model->save($data); // 返回受影响记录的数目
+//
+//			$data = array(
+//				'goods_name' => '香米',
+//				'goods_price' => 4000
+//			);
+//			$rst = $goods_model->where('goods_id=57')->save($data); 
+//			echo $rst;
+
+			$goods_model->goods_id = 58;
+			$goods_model->goods_name = 'APPLE';
+			$goods_model->goods_price = 4000;
+			$goods_model->save();
+			
+			$goods_model->goods_name = 'huawei';
+			$goods_model->goods_price = 4000;
+			$snt = $goods_model->where('goods_id=56')->save();
+			
+			echo $snt;
 			
 			$this->display();
 		}
 		
 		// 修改商品
-		public function upd() {
-			$this->display();
+		public function upd( $goods_id ) {
+		
+// 获取参数形式
+// http://www.tp.com/index.php?m=控制器&a=操作&goods_id=100&goods_price=2300
+// http://www.tp.com/index.php/控制器/操作/参数1/值1/参数2/值2
+// function upd( 参数1, 参数2 ) {
+	// $_GET['goods_id'];
+// }
+			
+			$goods_model = new GoodsModel();
+
+			if ( empty($goods_id) ) {
+				
+			} else {
+				// 查询数据
+				$info = $goods_model->find($goods_id);
+				// 设置值
+				$this->assign('info', $info);
+				
+				$this->display();
+			}
+			
 		}
 		
 	} 

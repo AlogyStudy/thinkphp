@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2017-01-02 22:05:26
+<?php /* Smarty version Smarty-3.1.6, created on 2017-01-03 23:05:00
          compiled from "../Tpl/admin\Index\index.html" */ ?>
 <?php /*%%SmartyHeaderCode:23437586a5e26161896-63730628%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f3456010401a714fe8cbce73798780a06c82c758' => 
     array (
       0 => '../Tpl/admin\\Index\\index.html',
-      1 => 1483337946,
+      1 => 1483455898,
       2 => 'file',
     ),
   ),
@@ -15,13 +15,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'variables' => 
-  array (
-    'Think' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.6',
   'unifunc' => 'content_586a5e2643522',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_586a5e2643522')) {function content_586a5e2643522($_smarty_tpl) {?><!DOCTYPE html>
 <html>
@@ -34,12 +30,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     </head>
     
     <frameset border=0 framespacing=0 rows="60, *" frameborder=0>
-        <frame name=head src="<?php echo $_smarty_tpl->tpl_vars['Think']->value['const']['__URL__'];?>
+        <frame name=head src="<?php echo @__URL__;?>
 /head" frameborder=0 noresize scrolling=no>
             <frameset cols="170, *">
-                <frame name=left src="<?php echo $_smarty_tpl->tpl_vars['Think']->value['const']['__URL__'];?>
+                <frame name=left src="<?php echo @__URL__;?>
 /left" frameborder=0 noresize />
-                <frame name=right src="<?php echo $_smarty_tpl->tpl_vars['Think']->value['const']['__URL__'];?>
+                <frame name=right src="<?php echo @__URL__;?>
 /right" frameborder=0 noresize scrolling=yes />
             </frameset>
     </frameset>
