@@ -38,6 +38,10 @@
 				// 表单验证
 				$result = $user_model->create();
 				if ( $result ) {
+					
+					// 爱好的数组变为字符串
+					$user_model->user_hobby = implode($_POST['user_hobby'], ',');
+					
 					$user_id = $user_model->add();
 					
 					if ( isset($user_id) ) {
@@ -46,7 +50,7 @@
 						echo '注册失败';
 					}
 				} else {
-					echo $user_model->getError();
+					var_dump($user_model->getError());
 				}
 				
 			} else {
