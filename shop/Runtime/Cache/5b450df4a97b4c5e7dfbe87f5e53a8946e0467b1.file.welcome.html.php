@@ -1,31 +1,37 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2017-01-07 23:07:19
-         compiled from "../Tpl/home\User\login.html" */ ?>
-<?php /*%%SmartyHeaderCode:16831586a5e47385284-62284503%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.6, created on 2017-01-07 23:29:54
+         compiled from "../Tpl/home\Ucenter\welcome.html" */ ?>
+<?php /*%%SmartyHeaderCode:203125871052e7a2ef1-16805058%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    'eee8ec9d90f85611a5ebe13b0009ded3b4d51464' => 
+    '5b450df4a97b4c5e7dfbe87f5e53a8946e0467b1' => 
     array (
-      0 => '../Tpl/home\\User\\login.html',
-      1 => 1483801498,
+      0 => '../Tpl/home\\Ucenter\\welcome.html',
+      1 => 1483802989,
       2 => 'file',
     ),
     'c4865507a796473fe02d38cbc004832b2d6455e4' => 
     array (
       0 => '../Tpl/home\\public\\layout.html',
-      1 => 1483801631,
+      1 => 1483801647,
+      2 => 'file',
+    ),
+    '0a6e46cd9ea730bad79b3970b4636d781648bf58' => 
+    array (
+      0 => '../Tpl/home\\public\\ucenterleft.tpl',
+      1 => 1483802905,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '16831586a5e47385284-62284503',
+  'nocache_hash' => '203125871052e7a2ef1-16805058',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.6',
-  'unifunc' => 'content_586a5e47b0878',
+  'unifunc' => 'content_5871052ec6eab',
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_586a5e47b0878')) {function content_586a5e47b0878($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<?php if ($_valid && !is_callable('content_5871052ec6eab')) {function content_5871052ec6eab($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta name="Generator" content="YONGDA v1.0" />
@@ -104,65 +110,54 @@ biao7.gif"></a>
         <div class="block box">
             <div class="blank"></div>
             <div id="ur_here">
-                当前位置: <a href="#">首页test</a> <code>&gt;</code> 用户中心 
+                当前位置: <a href="#">首页</a> <code>&gt;</code> 用户中心 
             </div>
         </div>
         <div class="blank"></div>
 				
 				
+<div class="block clearfix">
+			
+			<?php /*  Call merged included template "public/ucenterleft.tpl" */
+$_tpl_stack[] = $_smarty_tpl;
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("public/ucenterleft.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '203125871052e7a2ef1-16805058');
+content_58710972afc20($_smarty_tpl);
+$_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "public/ucenterleft.tpl" */?>
+	
+            <div class="AreaR">
+                <div class="box">
+                    <div class="box_1">
+                        <div class="userCenterBox boxCenterList clearfix" style="">
 
-<div class="block box">
-
-            <div class="usBox clearfix">
-                <div class="usBox_1 f_l">
-                    <div class="logtitle"></div>
-                    <form name="formLogin" action="#" method="post">
-                        <table align="left" border="0" cellpadding="3" cellspacing="5" width="100%">
-                            <tbody><tr>
-                                    <td align="right" width="15%">用户名</td>
-                                    <td width="85%"><input name="username" size="25" class="inputBg" type="text" /></td>
-                                </tr>
-                                <tr>
-                                    <td align="right">密码</td>
-                                    <td>
-                                        <input name="password" size="15" class="inputBg" type="password" />
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td colspan="2"><input value="1" name="remember" id="remember" type="checkbox" />
-                                        <label for="remember">请保存我这次的登录信息。</label></td>
-                                </tr>
-                                <tr>
-                                    <td>&nbsp;</td>
-                                    <td align="left">
-                                        <input name="act" value="act_login" type="hidden" />
-                                        <input name="back_act" value="./index.php" type="hidden" />
-                                        <input name="submit" value="" class="us_Submit" type="submit" />
-                                    </td>
-                                </tr>
-                                <tr><td></td><td><a href="#" class="f3">密码问题找回密码</a>&nbsp;&nbsp;&nbsp;<a href="#" class="f3">注册邮件找回密码</a></td></tr>
-                            </tbody></table>
-                    </form>
-                    <div class="blank"></div>
-                </div>
-                <div class="usTxt">
-                    <div class="regtitle"></div>
-                    <div style="padding-left: 50px;">
-                        <strong>如果您不是会员，请注册</strong>  <br />
-                        <strong class="f4">友情提示：</strong><br />
-                        不注册为会员也可在本店购买商品<br />
-                        但注册之后您可以：<br />
-                        1. 保存您的个人资料<br />
-                        2. 收藏您关注的商品<br />
-                        3. 享受会员积分制度<br />
-                        4. 订阅本店商品信息  <br />
-                        <a href="#"><img src="<?php echo @IMAGE_URL;?>
-bnt_ur_reg.gif"></a>
+                            <font class="f5"><b class="f4">finisher</b> 欢迎您回到 YONGDA！</font><br />
+                            <div class="blank"></div>
+                            您的上一次登录时间: 2012-10-06 20:12:04<br />
+                            <div class="blank5"></div>
+                            您的等级是 注册用户  ,您还差 10000 积分达到 vip <br />
+                            <div class="blank5"></div>
+                            您还没有通过邮件认证 <a href="#" style="color: rgb(0, 107, 208);">点此发送认证邮件</a><br />
+                            <div style="margin: 5px 0pt; border: 1px solid rgb(247, 221, 152); padding: 10px 20px; background-color: rgb(255, 250, 213);">
+                                <img src="<?php echo @IMAGE_URL;?>
+/note.gif" alt="note" />&nbsp;用户中心公告！           </div>
+                            <br /><br />
+                            <div class="f_l" style="width: 350px;">
+                                <h5><span>您的账户</span></h5>
+                                <div class="blank"></div>
+                                余额:<a href="#" style="color: rgb(0, 107, 208);">￥0.00元</a><br />
+                                红包:<a href="#" style="color: rgb(0, 107, 208);">共计 0 个,价值 ￥0.00元</a><br />
+                                积分:0积分<br />
+                            </div>
+                            <div class="f_r" style="width: 350px;">
+                                <h5><span>用户提醒</span></h5>
+                                <div class="blank"></div>
+                                您最近30天内提交了1个订单<br />
+                            </div>
+                            <div class="blank5"></div>
+                        </div>
                     </div>
                 </div>
             </div>
-            </div>
-            </div>
+        </div>
 
 
         <div class="blank"></div>
@@ -263,4 +258,44 @@ yongda_logo.gif" alt="YONGDA 网上商店管理系统" border="0" />
         </div>
     </body>
 </html>
+<?php }} ?><?php /* Smarty version Smarty-3.1.6, created on 2017-01-07 23:29:54
+         compiled from "../Tpl/home\public\ucenterleft.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_58710972afc20')) {function content_58710972afc20($_smarty_tpl) {?>            <div class="AreaL">
+                <div class="box">
+                    <div class="box_1">
+                        <div class="userCenterBox">
+                            <div class="userMenu">
+                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+/u1.gif" alt="" /> 欢迎页</a>
+                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+/u2.gif" alt="" /> 用户信息</a>
+                                <a href="#" class="curs"><img src="<?php echo @IMAGE_URL;?>
+/u3.gif" alt="" /> 我的订单</a>
+                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+/u4.gif" alt="" /> 收货地址</a>
+                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+/u5.gif" alt="" /> 我的收藏</a>
+                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+/u6.gif" alt="" /> 我的留言</a>
+                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+/u7.gif" alt="" /> 我的标签</a>
+                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+/u8.gif" alt="" /> 缺货登记</a>
+                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+/u9.gif" alt="" /> 我的红包</a>
+                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+/u10.gif" alt="" /> 我的推荐</a>
+                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+/u11.gif" alt="" /> 我的评论</a>
+                                <!--<a href="user.php?act=group_buy">我的团购</a>-->
+                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+/u12.gif" alt="" /> 跟踪包裹</a>
+                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+/u13.gif" alt="" /> 资金管理</a>
+                                <a href="#" style="background: none repeat scroll 0% 0% transparent; text-align: right; margin-right: 10px;"><img src="<?php echo @IMAGE_URL;?>
+/bnt_sign.gif" alt="" /></a>
+                            </div>      </div>
+                    </div>
+                </div>
+            </div>
 <?php }} ?>

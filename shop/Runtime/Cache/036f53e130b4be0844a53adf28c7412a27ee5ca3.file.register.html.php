@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2017-01-07 00:17:59
+<?php /* Smarty version Smarty-3.1.6, created on 2017-01-07 23:07:16
          compiled from "../Tpl/home\User\register.html" */ ?>
 <?php /*%%SmartyHeaderCode:28780586e62761eede8-54219162%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '036f53e130b4be0844a53adf28c7412a27ee5ca3' => 
     array (
       0 => '../Tpl/home\\User\\register.html',
-      1 => 1483719477,
+      1 => 1483801548,
+      2 => 'file',
+    ),
+    'c4865507a796473fe02d38cbc004832b2d6455e4' => 
+    array (
+      0 => '../Tpl/home\\public\\layout.html',
+      1 => 1483801631,
       2 => 'file',
     ),
   ),
@@ -26,12 +32,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="Keywords" content="YONGDA商城" />
         <meta name="Description" content="YONGDA商城" />
-
+        
         <title>YONGDA商城 - Powered by YongDa</title>
-
+        
         <link href="<?php echo @CSS_URL;?>
 style.css" rel="stylesheet" type="text/css" />
-
+        
     </head>
     <body class="index_body">
         <div class="block clearfix" style="position: relative; height: 98px;">
@@ -41,15 +47,13 @@ logo.gif"></a>
             <div id="topNav" class="clearfix">
                 <div style="float: left;"> 
                     <font id="ECS_MEMBERZONE">
-
                         <div id="append_parent"></div>
                         欢迎光临本店&nbsp;
-                        <a href="./index.php?r=user/login"> 登录</a>
-                        <a href="./index.php?r=user/register">注册</a>
+                        <a href="#"> 登录</a>
+                        <a href="#">注册</a>
                     </font>
                 </div>
                 <div style="float: right;">
-
                     <a href="#">查看购物车</a>
                     |
                     <a href="#">选购中心</a>
@@ -58,7 +62,6 @@ logo.gif"></a>
                     |
                     <a href="#">报价单</a>
                 </div>
-
             </div>
             <div id="mainNav" class="clearfix">
                 <a href="#" class="cur">首页<span></span></a>
@@ -66,7 +69,6 @@ logo.gif"></a>
                 <a href="#">双模手机<span></span></a>
                 <a href="#">手机配件<span></span></a>
                 <a href="#">优惠活动<span></span></a>
-
                 <a href="#">留言板<span></span></a>
             </div>
         </div>
@@ -77,7 +79,6 @@ logo.gif"></a>
 
             <form id="searchForm" method="get" action="#">
                 <input name="keywords" id="keyword" type="text" />
-
                 <input name="imageField" value=" " class="go" style="cursor: pointer; background: url('<?php echo @IMAGE_URL;?>
 sousuo.gif') no-repeat scroll 0% 0% transparent; width: 39px; height: 20px; border: medium none; float: left; margin-right: 15px; vertical-align: middle;" type="submit" />
 
@@ -88,8 +89,7 @@ sousuo.gif') no-repeat scroll 0% 0% transparent; width: 39px; height: 20px; bord
             <div class="f_l" style="padding-left: 10px;">
                 <img src="<?php echo @IMAGE_URL;?>
 biao6.gif" />
-                北京市区，现在下单(截至次日00:30已出库)，<b>明天上午(9-14点)</b>送达 <b>免运费火热进行中！</b>
-
+                    北京市区，现在下单(截至次日00:30已出库)，<b>明天上午(9-14点)</b>送达 <b>免运费火热进行中！</b>
             </div>
             <div class="f_r" style="padding-right: 10px;">
                 <img style="vertical-align: middle;" src="<?php echo @IMAGE_URL;?>
@@ -101,19 +101,16 @@ biao7.gif"></a>
 
             </div>
         </div>
-
-        <div class="block block1">  
-
-            <div class="block box">
-                <div class="blank"></div>
-                <div id="ur_here">
-                    当前位置: <a href="#">首页</a> <code>&gt;</code> 用户注册 
-                </div>
-            </div>
+        <div class="block box">
             <div class="blank"></div>
-
-
-            <!--放入view具体内容-->
+            <div id="ur_here">
+                当前位置: <a href="#">首页test</a> <code>&gt;</code> 用户中心 
+            </div>
+        </div>
+        <div class="blank"></div>
+				
+				
+       <!--放入view具体内容-->
 
             <div class="block box">
 
@@ -238,7 +235,6 @@ biao7.gif"></a>
             </div>
             <!--放入view具体内容-->
 
-        </div>
 
         <div class="blank"></div>
         <div class="block">
@@ -246,7 +242,6 @@ biao7.gif"></a>
 di.jpg"></a>
             <div class="blank"></div>
         </div>
-
         <div class="block">
             <div class="box">
                 <div class="helpTitBg" style="clear: both;">
@@ -254,7 +249,6 @@ di.jpg"></a>
                         <dt><a href="#" title="新手上路 ">新手上路 </a></dt>
                         <dd><a href="#" title="售后流程">售后流程</a></dd>
                         <dd><a href="#" title="购物流程">购物流程</a></dd>
-
                         <dd><a href="#" title="订购方式">订购方式</a></dd>
                     </dl>
                     <dl>
@@ -262,7 +256,6 @@ di.jpg"></a>
                         <dd><a href="#" title="如何分辨原装电池">如何分辨原装电池</a></dd>
                         <dd><a href="#" title="如何分辨水货手机 ">如何分辨水货手机</a></dd>
                         <dd><a href="#" title="如何享受全国联保">如何享受全国联保</a></dd>
-
                     </dl>
                     <dl>
                         <dt><a href="#" title="配送与支付 ">配送与支付 </a></dt>
@@ -270,7 +263,6 @@ di.jpg"></a>
                         <dd><a href="#" title="配送支付智能查询 ">配送支付智能查询</a></dd>
                         <dd><a href="#" title="支付方式说明">支付方式说明</a></dd>
                     </dl>
-
                     <dl>
                         <dt><a href="#" title="会员中心">会员中心</a></dt>
                         <dd><a href="#" title="资金管理">资金管理</a></dd>
@@ -278,7 +270,6 @@ di.jpg"></a>
                         <dd><a href="#" title="我的订单">我的订单</a></dd>
                     </dl>
                     <dl>
-
                         <dt><a href="#" title="服务保证 ">服务保证 </a></dt>
                         <dd><a href="#" title="退换货原则">退换货原则</a></dd>
                         <dd><a href="#" title="售后服务保证 ">售后服务保证</a></dd>
@@ -286,7 +277,6 @@ di.jpg"></a>
                     </dl>
                     <dl>
                         <dt><a href="#" title="联系我们 ">联系我们 </a></dt>
-
                         <dd><a href="#" title="网站故障报告">网站故障报告</a></dd>
                         <dd><a href="#" title="选机咨询 ">选机咨询</a></dd>
                         <dd><a href="#" title="投诉与建议 ">投诉与建议</a></dd>
@@ -318,7 +308,6 @@ yongda_logo.gif" alt="YONGDA 网上商店管理系统" border="0" />
             </div>
         </div>
         <div class="blank"></div>
-
         <div id="bottomNav" class="box block">
             <div class="bNavList clearfix">
                 <a href="#">免责条款</a>
@@ -328,7 +317,6 @@ yongda_logo.gif" alt="YONGDA 网上商店管理系统" border="0" />
                 <a href="#">咨询热点</a>
                 |
                 <a href="#">联系我们</a>
-
                 |
                 <a href="#">Powered&nbsp;by&nbsp;<strong><span style="color: rgb(51, 102, 255);">YongDa</span></strong></a>
                 |
@@ -337,7 +325,6 @@ yongda_logo.gif" alt="YONGDA 网上商店管理系统" border="0" />
                 <a href="#">配送方式</a>
 
             </div>
-
         </div>
 
         <div id="footer">
@@ -345,6 +332,6 @@ yongda_logo.gif" alt="YONGDA 网上商店管理系统" border="0" />
                 © 2005-2012 YONGDA 版权所有，并保留所有权利。<br />
             </div>
         </div>
-
     </body>
-</html><?php }} ?>
+</html>
+<?php }} ?>

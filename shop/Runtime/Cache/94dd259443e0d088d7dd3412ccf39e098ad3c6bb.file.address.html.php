@@ -1,31 +1,37 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2017-01-07 23:07:19
-         compiled from "../Tpl/home\User\login.html" */ ?>
-<?php /*%%SmartyHeaderCode:16831586a5e47385284-62284503%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.6, created on 2017-01-07 23:29:43
+         compiled from "../Tpl/home\Ucenter\address.html" */ ?>
+<?php /*%%SmartyHeaderCode:13946587106ac097713-51792396%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    'eee8ec9d90f85611a5ebe13b0009ded3b4d51464' => 
+    '94dd259443e0d088d7dd3412ccf39e098ad3c6bb' => 
     array (
-      0 => '../Tpl/home\\User\\login.html',
-      1 => 1483801498,
+      0 => '../Tpl/home\\Ucenter\\address.html',
+      1 => 1483802978,
       2 => 'file',
     ),
     'c4865507a796473fe02d38cbc004832b2d6455e4' => 
     array (
       0 => '../Tpl/home\\public\\layout.html',
-      1 => 1483801631,
+      1 => 1483801647,
+      2 => 'file',
+    ),
+    '0a6e46cd9ea730bad79b3970b4636d781648bf58' => 
+    array (
+      0 => '../Tpl/home\\public\\ucenterleft.tpl',
+      1 => 1483802905,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '16831586a5e47385284-62284503',
+  'nocache_hash' => '13946587106ac097713-51792396',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.6',
-  'unifunc' => 'content_586a5e47b0878',
+  'unifunc' => 'content_587106ac595b3',
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_586a5e47b0878')) {function content_586a5e47b0878($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<?php if ($_valid && !is_callable('content_587106ac595b3')) {function content_587106ac595b3($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta name="Generator" content="YONGDA v1.0" />
@@ -104,65 +110,94 @@ biao7.gif"></a>
         <div class="block box">
             <div class="blank"></div>
             <div id="ur_here">
-                当前位置: <a href="#">首页test</a> <code>&gt;</code> 用户中心 
+                当前位置: <a href="#">首页</a> <code>&gt;</code> 用户中心 
             </div>
         </div>
         <div class="blank"></div>
 				
 				
 
-<div class="block box">
+<style type="text/css">
+    table {border:1px solid #dddddd; border-collapse: collapse; width:100%; margin:auto;}
+    td {border:1px solid #dddddd;}
+    #consignee_addr {width:450px;}
+</style>
 
-            <div class="usBox clearfix">
-                <div class="usBox_1 f_l">
-                    <div class="logtitle"></div>
-                    <form name="formLogin" action="#" method="post">
-                        <table align="left" border="0" cellpadding="3" cellspacing="5" width="100%">
-                            <tbody><tr>
-                                    <td align="right" width="15%">用户名</td>
-                                    <td width="85%"><input name="username" size="25" class="inputBg" type="text" /></td>
-                                </tr>
-                                <tr>
-                                    <td align="right">密码</td>
-                                    <td>
-                                        <input name="password" size="15" class="inputBg" type="password" />
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td colspan="2"><input value="1" name="remember" id="remember" type="checkbox" />
-                                        <label for="remember">请保存我这次的登录信息。</label></td>
-                                </tr>
-                                <tr>
-                                    <td>&nbsp;</td>
-                                    <td align="left">
-                                        <input name="act" value="act_login" type="hidden" />
-                                        <input name="back_act" value="./index.php" type="hidden" />
-                                        <input name="submit" value="" class="us_Submit" type="submit" />
-                                    </td>
-                                </tr>
-                                <tr><td></td><td><a href="#" class="f3">密码问题找回密码</a>&nbsp;&nbsp;&nbsp;<a href="#" class="f3">注册邮件找回密码</a></td></tr>
-                            </tbody></table>
-                    </form>
-                    <div class="blank"></div>
-                </div>
-                <div class="usTxt">
-                    <div class="regtitle"></div>
-                    <div style="padding-left: 50px;">
-                        <strong>如果您不是会员，请注册</strong>  <br />
-                        <strong class="f4">友情提示：</strong><br />
-                        不注册为会员也可在本店购买商品<br />
-                        但注册之后您可以：<br />
-                        1. 保存您的个人资料<br />
-                        2. 收藏您关注的商品<br />
-                        3. 享受会员积分制度<br />
-                        4. 订阅本店商品信息  <br />
-                        <a href="#"><img src="<?php echo @IMAGE_URL;?>
-bnt_ur_reg.gif"></a>
+
+  <div class="block clearfix">
+					
+					<?php /*  Call merged included template "public/ucenterleft.tpl" */
+$_tpl_stack[] = $_smarty_tpl;
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("public/ucenterleft.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '13946587106ac097713-51792396');
+content_58710967932b3($_smarty_tpl);
+$_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "public/ucenterleft.tpl" */?>
+					
+            <div class="AreaR">
+                <div class="box">
+                    <div class="box_1">
+                        <div class="userCenterBox boxCenterList clearfix" style="">
+                            <h5><span>我的订单</span></h5>
+                            <div class="blank"></div>
+                            <table cellpadding="5" cellspacing="1">
+                                <tbody><tr align="center">
+                                        <td>订单号</td>
+                                        <td>下单时间</td>
+                                        <td>订单总金额</td>
+                                        <td>订单状态</td>
+                                        <td>操作</td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center"><a href="./user.php?act=order_detail&amp;order_id=20" class="f6">2012100649488</a></td>
+                                        <td align="center">2012-10-06 20:08:43</td>
+                                        <td align="right">￥5020.00元</td>
+                                        <td align="center">未确认,未付款,未发货</td>
+                                        <td align="center"><font class="f6"><a href="#" >取消订单</a></font></td>
+                                    </tr>
+                                </tbody></table>
+                            <div class="blank5"></div>
+
+                            <form action="/user.php" method="get">
+
+                                <div id="pager" class="pagebar">
+                                    <span class="f_l " style="margin-right: 10px;">总计 <b>1</b>  个记录</span>
+
+                                </div>
+
+                            </form>
+                            <div class="blank5"></div>
+                            <h5><span>合并订单</span></h5>
+                            <div class="blank"></div>
+                            <form action="#" method="post">
+                                <table cellpadding="5" cellspacing="1">
+                                    <tbody>
+                                        <tr>
+                                            <td align="right" width="22%">主订单:</td>
+                                            <td align="left" width="12%"><select name="to_order">
+                                                    <option selected="selected" value="0">请选择...</option>
+
+                                                    <option value="2012100649488">2012100649488</option>
+                                                </select></td>
+                                            <td align="right" width="19%">从订单:</td>
+                                            <td align="left" width="11%"><select name="from_order">
+                                                    <option selected="selected" value="0">请选择...</option>
+
+                                                    <option value="2012100649488">2012100649488</option>
+                                                </select></td>
+                                            <td width="36%">&nbsp;<input name="act" value="merge_order" type="hidden" />
+                                                <input name="Submit" class="bnt_blue_1" style="border: medium none;" value="合并订单" type="submit" /></td>
+                                        </tr>
+                                        <tr>
+                                            <td>&nbsp;</td>
+                                            <td colspan="4" align="left">订单合并是在发货前将相同状态的订单合并成一新的订单。<br />收货地址，送货方式等以主定单为准。</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
-            </div>
-            </div>
+        </div>
 
 
         <div class="blank"></div>
@@ -263,4 +298,44 @@ yongda_logo.gif" alt="YONGDA 网上商店管理系统" border="0" />
         </div>
     </body>
 </html>
+<?php }} ?><?php /* Smarty version Smarty-3.1.6, created on 2017-01-07 23:29:43
+         compiled from "../Tpl/home\public\ucenterleft.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_58710967932b3')) {function content_58710967932b3($_smarty_tpl) {?>            <div class="AreaL">
+                <div class="box">
+                    <div class="box_1">
+                        <div class="userCenterBox">
+                            <div class="userMenu">
+                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+/u1.gif" alt="" /> 欢迎页</a>
+                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+/u2.gif" alt="" /> 用户信息</a>
+                                <a href="#" class="curs"><img src="<?php echo @IMAGE_URL;?>
+/u3.gif" alt="" /> 我的订单</a>
+                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+/u4.gif" alt="" /> 收货地址</a>
+                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+/u5.gif" alt="" /> 我的收藏</a>
+                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+/u6.gif" alt="" /> 我的留言</a>
+                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+/u7.gif" alt="" /> 我的标签</a>
+                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+/u8.gif" alt="" /> 缺货登记</a>
+                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+/u9.gif" alt="" /> 我的红包</a>
+                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+/u10.gif" alt="" /> 我的推荐</a>
+                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+/u11.gif" alt="" /> 我的评论</a>
+                                <!--<a href="user.php?act=group_buy">我的团购</a>-->
+                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+/u12.gif" alt="" /> 跟踪包裹</a>
+                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+/u13.gif" alt="" /> 资金管理</a>
+                                <a href="#" style="background: none repeat scroll 0% 0% transparent; text-align: right; margin-right: 10px;"><img src="<?php echo @IMAGE_URL;?>
+/bnt_sign.gif" alt="" /></a>
+                            </div>      </div>
+                    </div>
+                </div>
+            </div>
 <?php }} ?>
