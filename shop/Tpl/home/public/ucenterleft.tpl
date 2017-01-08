@@ -3,10 +3,10 @@
         <div class="box_1">
             <div class="userCenterBox">
                 <div class="userMenu">
-                    <a href="#"><img src="{$smarty.const.IMAGE_URL}/u1.gif" alt="" /> 欢迎页</a>
+                    <a href="#" {if $smarty.const.ACTION_NAME == 'welcome'} class="curs" {/if}><img src="{$smarty.const.IMAGE_URL}/u1.gif" alt="" /> 欢迎页</a>
                     <a href="#"><img src="{$smarty.const.IMAGE_URL}/u2.gif" alt="" /> 用户信息</a>
-                    <a href="#" class="curs"><img src="{$smarty.const.IMAGE_URL}/u3.gif" alt="" /> 我的订单</a>
-                    <a href="#"><img src="{$smarty.const.IMAGE_URL}/u4.gif" alt="" /> 收货地址</a>
+                    <a href="#" {if $smarty.const.ACTION_NAME == 'order'} class="curs" {/if}><img src="{$smarty.const.IMAGE_URL}/u3.gif" alt="" /> 我的订单</a>
+                    <a href="#" {if $smarty.const.ACTION_NAME == 'address'} class="curs" {/if}><img src="{$smarty.const.IMAGE_URL}/u4.gif" alt="" /> 收货地址</a>
                     <a href="#"><img src="{$smarty.const.IMAGE_URL}/u5.gif" alt="" /> 我的收藏</a>
                     <a href="#"><img src="{$smarty.const.IMAGE_URL}/u6.gif" alt="" /> 我的留言</a>
                     <a href="#"><img src="{$smarty.const.IMAGE_URL}/u7.gif" alt="" /> 我的标签</a>

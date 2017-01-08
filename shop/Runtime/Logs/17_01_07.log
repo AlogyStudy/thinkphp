@@ -19,3 +19,6 @@ ERR: Syntax Error in template "../Tpl/home\Ucenter\address.html"  on line 13 "ta
 [ 2017-01-07T23:19:04+08:00 ] 127.0.0.1 /shop/go/index.php/Ucenter/address
 ERR: Syntax Error in template "../Tpl/home\Ucenter\address.html"  on line 3 "table {border:1px solid #dddddd; border-collapse: collapse; width:100%; margin:auto;}"  - Unexpected ":", expected one of: "}" , " "
 
+[ 2017-01-07T23:43:58+08:00 ] 127.0.0.1 /shop/go/index.php/Ucenter/welcome
+ERR: Syntax Error in template "../Tpl/home\public\ucenterleft.tpl"  on line 25 "&lt;/div&gt;" unclosed {if} tag
+

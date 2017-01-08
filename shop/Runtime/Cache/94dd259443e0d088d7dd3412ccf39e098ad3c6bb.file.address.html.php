@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2017-01-07 23:29:43
+<?php /* Smarty version Smarty-3.1.6, created on 2017-01-07 23:47:14
          compiled from "../Tpl/home\Ucenter\address.html" */ ?>
 <?php /*%%SmartyHeaderCode:13946587106ac097713-51792396%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -19,7 +19,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '0a6e46cd9ea730bad79b3970b4636d781648bf58' => 
     array (
       0 => '../Tpl/home\\public\\ucenterleft.tpl',
-      1 => 1483802905,
+      1 => 1483804020,
       2 => 'file',
     ),
   ),
@@ -129,7 +129,7 @@ biao7.gif"></a>
 					<?php /*  Call merged included template "public/ucenterleft.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("public/ucenterleft.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '13946587106ac097713-51792396');
-content_58710967932b3($_smarty_tpl);
+content_58710d82b5718($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "public/ucenterleft.tpl" */?>
 					
             <div class="AreaR">
@@ -298,44 +298,46 @@ yongda_logo.gif" alt="YONGDA 网上商店管理系统" border="0" />
         </div>
     </body>
 </html>
-<?php }} ?><?php /* Smarty version Smarty-3.1.6, created on 2017-01-07 23:29:43
+<?php }} ?><?php /* Smarty version Smarty-3.1.6, created on 2017-01-07 23:47:14
          compiled from "../Tpl/home\public\ucenterleft.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_58710967932b3')) {function content_58710967932b3($_smarty_tpl) {?>            <div class="AreaL">
-                <div class="box">
-                    <div class="box_1">
-                        <div class="userCenterBox">
-                            <div class="userMenu">
-                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+<?php if ($_valid && !is_callable('content_58710d82b5718')) {function content_58710d82b5718($_smarty_tpl) {?><div class="AreaL">
+    <div class="box">
+        <div class="box_1">
+            <div class="userCenterBox">
+                <div class="userMenu">
+                	<div><?php echo @ACTION_NAME;?>
+------</div>
+                    <a href="#" <?php if (@ACTION_NAME=='welcome'){?> class="curs" <?php }?>><img src="<?php echo @IMAGE_URL;?>
 /u1.gif" alt="" /> 欢迎页</a>
-                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+                    <a href="#"><img src="<?php echo @IMAGE_URL;?>
 /u2.gif" alt="" /> 用户信息</a>
-                                <a href="#" class="curs"><img src="<?php echo @IMAGE_URL;?>
+                    <a href="#" <?php if (@ACTION_NAME=='order'){?> class="curs" <?php }?>><img src="<?php echo @IMAGE_URL;?>
 /u3.gif" alt="" /> 我的订单</a>
-                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+                    <a href="#" <?php if (@ACTION_NAME=='address'){?> class="curs" <?php }?>><img src="<?php echo @IMAGE_URL;?>
 /u4.gif" alt="" /> 收货地址</a>
-                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+                    <a href="#"><img src="<?php echo @IMAGE_URL;?>
 /u5.gif" alt="" /> 我的收藏</a>
-                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+                    <a href="#"><img src="<?php echo @IMAGE_URL;?>
 /u6.gif" alt="" /> 我的留言</a>
-                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+                    <a href="#"><img src="<?php echo @IMAGE_URL;?>
 /u7.gif" alt="" /> 我的标签</a>
-                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+                    <a href="#"><img src="<?php echo @IMAGE_URL;?>
 /u8.gif" alt="" /> 缺货登记</a>
-                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+                    <a href="#"><img src="<?php echo @IMAGE_URL;?>
 /u9.gif" alt="" /> 我的红包</a>
-                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+                    <a href="#"><img src="<?php echo @IMAGE_URL;?>
 /u10.gif" alt="" /> 我的推荐</a>
-                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+                    <a href="#"><img src="<?php echo @IMAGE_URL;?>
 /u11.gif" alt="" /> 我的评论</a>
-                                <!--<a href="user.php?act=group_buy">我的团购</a>-->
-                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+                    <!--<a href="user.php?act=group_buy">我的团购</a>-->
+                    <a href="#"><img src="<?php echo @IMAGE_URL;?>
 /u12.gif" alt="" /> 跟踪包裹</a>
-                                <a href="#"><img src="<?php echo @IMAGE_URL;?>
+                    <a href="#"><img src="<?php echo @IMAGE_URL;?>
 /u13.gif" alt="" /> 资金管理</a>
-                                <a href="#" style="background: none repeat scroll 0% 0% transparent; text-align: right; margin-right: 10px;"><img src="<?php echo @IMAGE_URL;?>
+                    <a href="#" style="background: none repeat scroll 0% 0% transparent; text-align: right; margin-right: 10px;"><img src="<?php echo @IMAGE_URL;?>
 /bnt_sign.gif" alt="" /></a>
-                            </div>      </div>
-                    </div>
-                </div>
+                </div>      
             </div>
-<?php }} ?>
+        </div>
+    </div>
+</div><?php }} ?>

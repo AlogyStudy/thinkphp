@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2017-01-07 23:07:12
+<?php /* Smarty version Smarty-3.1.6, created on 2017-01-07 23:38:46
          compiled from "../Tpl/home\Goods\showList.html" */ ?>
 <?php /*%%SmartyHeaderCode:112555870fd1b693ee5-68039681%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -13,7 +13,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'c4865507a796473fe02d38cbc004832b2d6455e4' => 
     array (
       0 => '../Tpl/home\\public\\layout.html',
-      1 => 1483801631,
+      1 => 1483801647,
       2 => 'file',
     ),
   ),
@@ -104,7 +104,7 @@ biao7.gif"></a>
         <div class="block box">
             <div class="blank"></div>
             <div id="ur_here">
-                当前位置: <a href="#">首页test</a> <code>&gt;</code> 用户中心 
+                当前位置: <a href="#">首页</a> <code>&gt;</code> 用户中心 
             </div>
         </div>
         <div class="blank"></div>

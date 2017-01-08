@@ -1,4 +1,25 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<?php /* Smarty version Smarty-3.1.6, created on 2017-01-08 22:39:52
+         compiled from "../Tpl/admin\Manager\login.html" */ ?>
+<?php /*%%SmartyHeaderCode:19345587118575e3213-68878080%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'd459575a180397dd29d179a99602296abf1c2b11' => 
+    array (
+      0 => '../Tpl/admin\\Manager\\login.html',
+      1 => 1483886380,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '19345587118575e3213-68878080',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.6',
+  'unifunc' => 'content_5871185787116',
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_5871185787116')) {function content_5871185787116($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -6,7 +27,8 @@
 
         <title>用户登录</title>
 
-        <link href="{$smarty.const.ADMIN_CSS_URL}User_Login.css" type="text/css" rel="stylesheet" />
+        <link href="<?php echo @ADMIN_CSS_URL;?>
+User_Login.css" type="text/css" rel="stylesheet" />
     </head><body id="userlogin_body">
         <div></div>
         <div id="user_login">
@@ -17,7 +39,8 @@
                         <li class="user_top_c"></li>
                         <li class="user_top_r"></li></ul>
                 </dd><dd id="user_main">
-                    <form action="{$smarty.const.__SELF__}" method="post">
+                    <form action="<?php echo @__SELF__;?>
+" method="post">
                         <ul>
                             <li class="user_main_l"></li>
                             <li class="user_main_c">
@@ -36,15 +59,18 @@
                                         <li class="user_main_text">验证码： </li>
                                         <li class="user_main_input">
                                             <input class="TxtValidateCodeCssClass" id="captcha" name="captcha" type="text">
-                                            <!--<img src="{$smarty.const.ADMIN_IMAGE_URL}admin.png"  alt="" />-->
-                                            <img src="{$smarty.const.__URL__}/verifyImg" alt="" />
+                                            <!--<img src="<?php echo @ADMIN_IMAGE_URL;?>
+admin.png"  alt="" />-->
+                                            <img src="<?php echo @__URL__;?>
+/verifyImg" alt="" />
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li class="user_main_r">
 
-                                <input style="border: medium none; background: url('{$smarty.const.ADMIN_IMAGE_URL}user_botton.gif') repeat-x scroll left top transparent; height: 122px; width: 111px; display: block; cursor: pointer;" value="" type="submit">
+                                <input style="border: medium none; background: url('<?php echo @ADMIN_IMAGE_URL;?>
+user_botton.gif') repeat-x scroll left top transparent; height: 122px; width: 111px; display: block; cursor: pointer;" value="" type="submit">
                             </li>
                         </ul>
                     </form>
@@ -56,4 +82,4 @@
                         
         <div id="ValidationSummary1" style="display: none; color: red;"></div>
     </body>
-</html>
+</html><?php }} ?>
