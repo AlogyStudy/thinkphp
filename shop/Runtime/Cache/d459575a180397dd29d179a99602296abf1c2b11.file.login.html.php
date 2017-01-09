@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2017-01-08 22:39:52
+<?php /* Smarty version Smarty-3.1.6, created on 2017-01-09 00:21:46
          compiled from "../Tpl/admin\Manager\login.html" */ ?>
 <?php /*%%SmartyHeaderCode:19345587118575e3213-68878080%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'd459575a180397dd29d179a99602296abf1c2b11' => 
     array (
       0 => '../Tpl/admin\\Manager\\login.html',
-      1 => 1483886380,
+      1 => 1483892469,
       2 => 'file',
     ),
   ),
@@ -48,11 +48,11 @@ User_Login.css" type="text/css" rel="stylesheet" />
                                     <ul>
                                         <li class="user_main_text">用户名： </li>
                                         <li class="user_main_input">
-                                            <input class="TxtUserNameCssClass" id="admin_user" maxlength="20" name="admin_user"> </li></ul>
+                                            <input class="TxtUserNameCssClass" id="admin_user" maxlength="20" name="mg_name"> </li></ul>
                                     <ul>
                                         <li class="user_main_text">密&nbsp;&nbsp;&nbsp;&nbsp;码： </li>
                                         <li class="user_main_input">
-                                            <input class="TxtPasswordCssClass" id="admin_psd" name="admin_psd" type="password">
+                                            <input class="TxtPasswordCssClass" id="admin_psd" name="mg_pwd" type="password">
                                         </li>
                                     </ul>
                                     <ul>

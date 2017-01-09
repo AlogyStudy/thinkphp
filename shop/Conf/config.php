@@ -2,7 +2,7 @@
 return array(
 	// '配置项'=>'配置值'
 	
-	'URL_MODEL'             =>	0,            // 设置路由模式
+	// 'URL_MODEL'             =>	0,            // 设置路由模式
 	
 	'APP_GROUP_LIST'        =>	'home,admin', // 项目分组设定,多个组之间用逗号分隔,例如'Home,Admin'
 	

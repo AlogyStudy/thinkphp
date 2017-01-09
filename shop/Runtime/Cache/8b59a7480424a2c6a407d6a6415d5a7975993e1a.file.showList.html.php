@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2017-01-03 23:13:35
+<?php /* Smarty version Smarty-3.1.6, created on 2017-01-09 22:46:27
          compiled from "../Tpl/admin\Goods\showList.html" */ ?>
 <?php /*%%SmartyHeaderCode:12181586a2a4aec5ad5-60700806%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8b59a7480424a2c6a407d6a6415d5a7975993e1a' => 
     array (
       0 => '../Tpl/admin\\Goods\\showList.html',
-      1 => 1483456405,
+      1 => 1483973185,
       2 => 'file',
     ),
   ),
@@ -21,6 +21,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   array (
     'info' => 0,
     'v' => 0,
+    'page_list' => 0,
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
@@ -104,6 +105,14 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
                         <td><a href="javascript:;" onclick="delete_product(1)">删除</a></td>
                     </tr>
                     <?php } ?>
+                    
+                    <tr>
+                    	<td colspan="20" style="text-align: center;">
+                    		<?php echo $_smarty_tpl->tpl_vars['page_list']->value;?>
+		
+                    	</td>
+                    </tr>
+                    
                 </tbody>
             </table>
         </div>

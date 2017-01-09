@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2017-01-03 23:05:16
+<?php /* Smarty version Smarty-3.1.6, created on 2017-01-09 21:10:00
          compiled from "../Tpl/admin\Index\head.html" */ ?>
 <?php /*%%SmartyHeaderCode:18451586bbd9c7b9af6-94767625%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9237f20cb5c41a780392814f7e465ebb13b4d84d' => 
     array (
       0 => '../Tpl/admin\\Index\\head.html',
-      1 => 1483455915,
+      1 => 1483967397,
       2 => 'file',
     ),
   ),
@@ -35,11 +35,13 @@ header_bg.jpg" border=0>
 header_left.jpg" 
                                    width=260></td>
                 <td style="font-weight: bold; color: #fff; padding-top: 20px" 
-                    align=middle>当前用户：admin &nbsp;&nbsp; <a style="color: #fff" 
+                    align=middle>当前用户：<?php echo $_SESSION['mg_name'];?>
+ &nbsp;&nbsp; <a style="color: #fff" 
                                                         href="" 
                                                         target=main>修改口令</a> &nbsp;&nbsp; <a style="color: #fff" 
                                                         onclick="if (confirm('确定要退出吗？')) return true; else return false;" 
-                                                        href="" target=_top>退出系统</a> 
+                                                        href="<?php echo @__GROUP__;?>
+/Manager/logout" target=_top>退出系统</a> 
                 </td>
                 <td align=right width=268><img height=56 
                                                src="<?php echo @ADMIN_IMAGE_URL;?>

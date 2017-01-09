@@ -51,7 +51,7 @@
 		}
 		
 		
-		public function showList() {
+		public function showList2() {
 			
 			$goods_model = new GoodsModel();
 			
@@ -79,6 +79,33 @@
 			
 			$this->display(); 
 				
+		}
+
+		public function showList() {
+			
+			$goods_model = new GoodsModel();
+			
+			// 引入分页类
+			import('@.Components.Page');
+			// 计算当前记录总数目
+			$total = $goods_model->count();
+			// 每页5条
+			$per = 10;
+			// 实例化分页对象
+			$page = new Page($total, $per);
+			// 获得页面列表
+			$page_list = $page->fpage(array(3, 4, 5, 6, 7, 8));
+			
+			// SQL语句，获得每页的信息
+			$sql = "select * from sw_goods " . $page->limit;
+			$info = $goods_model->query($sql);
+			
+			// 设置数据
+			$this->assign('info', $info);
+			$this->assign('page_list', $page_list);
+			// 显示
+			$this->display();
+			
 		}
 		
 		// 添加商品
@@ -215,6 +242,24 @@
 			}
 			
 		}
+		
+		// 设置缓存
+		public function sSet() {
+			// 缓存周期，默认永久。 增加缓存有效期
+			S('username', 'admin'.time(), 10); // 1800 半个小时
+			S('goods_info', array('apple', 'WeChat'));
+		}
+		
+		// 获取缓存
+		public function gGet() {
+			var_dump(S('goods_info'));
+			echo S('username');
+		}
+		
+		// 删除缓存
+		public function dDel() {
+			S('username', null);
+		}	
 		
 	} 
 
