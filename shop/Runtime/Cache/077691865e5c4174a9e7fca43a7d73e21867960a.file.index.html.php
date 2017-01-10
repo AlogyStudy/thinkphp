@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2017-01-07 23:07:21
+<?php /* Smarty version Smarty-3.1.6, created on 2017-01-10 11:47:51
          compiled from "../Tpl/home\Index\index.html" */ ?>
-<?php /*%%SmartyHeaderCode:61775870f1311bf338-72106118%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:28254587455d6f2c310-98858245%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -13,19 +13,19 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'c4865507a796473fe02d38cbc004832b2d6455e4' => 
     array (
       0 => '../Tpl/home\\public\\layout.html',
-      1 => 1483801631,
+      1 => 1484020038,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '61775870f1311bf338-72106118',
+  'nocache_hash' => '28254587455d6f2c310-98858245',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.6',
-  'unifunc' => 'content_5870f131db312',
+  'unifunc' => 'content_587455d812c5e',
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5870f131db312')) {function content_5870f131db312($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<?php if ($_valid && !is_callable('content_587455d812c5e')) {function content_587455d812c5e($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta name="Generator" content="YONGDA v1.0" />
@@ -43,14 +43,19 @@ style.css" rel="stylesheet" type="text/css" />
         <div class="block clearfix" style="position: relative; height: 98px;">
             <a href="#" name="top"><img class="logo" src="<?php echo @IMAGE_URL;?>
 logo.gif"></a>
-
             <div id="topNav" class="clearfix">
                 <div style="float: left;"> 
                     <font id="ECS_MEMBERZONE">
                         <div id="append_parent"></div>
-                        欢迎光临本店&nbsp;
-                        <a href="#"> 登录</a>
-                        <a href="#">注册</a>
+                        <?php if (isset($_SESSION['username'])){?>
+                        	欢迎光临本店&nbsp; <?php echo $_SESSION['username'];?>
+
+                        	<a href="<?php echo @__GROUP__;?>
+/User/logout">退出</a>
+                        <?php }else{ ?>
+	                        <a href="#"> 登录</a>
+  	                      <a href="#">注册</a>
+  	                    <?php }?>  
                     </font>
                 </div>
                 <div style="float: right;">
@@ -104,7 +109,7 @@ biao7.gif"></a>
         <div class="block box">
             <div class="blank"></div>
             <div id="ur_here">
-                当前位置: <a href="#">首页test</a> <code>&gt;</code> 用户中心 
+                当前位置: <a href="#">首页</a> <code>&gt;</code> 用户中心 
             </div>
         </div>
         <div class="blank"></div>

@@ -32,7 +32,13 @@ return array(
   'TMPL_ENGINE_CONFIG'    =>  array(
   	'left_delimiter' => '{',
   	'right_delimiter' => '}'
-	)  
+	),  
+	
+	// 配置多语言参数	
+	'LANG_SWITCH_ON'        => true,   // 默认关闭语言包功能
+	'LANG_AUTO_DETECT'      => true,   // 自动侦测语言 开启多语言功能后有效
+	'LANG_LIST'             => 'zh-cn, zh-tw, en-us', // 允许切换的语言列表 用逗号分隔
+	'VAR_LANGUAGE'          => 'hl',		// 默认语言切换变量
 	
 );
 ?>

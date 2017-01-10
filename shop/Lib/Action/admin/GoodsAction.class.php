@@ -3,7 +3,8 @@
 	/**
 	 * 后台商品控制器
 	 */
-	class GoodsAction extends Action {
+	import('@.Components.AdminAction'); // 引入父类
+	class GoodsAction extends AdminAction {
 		
 		// 商品列表
 		public function showList1() {
@@ -243,6 +244,7 @@
 			
 		}
 		
+		
 		// 设置缓存
 		public function sSet() {
 			// 缓存周期，默认永久。 增加缓存有效期
@@ -260,6 +262,11 @@
 		public function dDel() {
 			S('username', null);
 		}	
+		
+		public function showListTest() {
+			$g = new GoodsModel();
+			echo $g->getInfo();
+		}
 		
 	} 
 

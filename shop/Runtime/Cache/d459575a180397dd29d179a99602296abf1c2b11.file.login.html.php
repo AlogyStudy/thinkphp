@@ -1,25 +1,29 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2017-01-09 00:21:46
+<?php /* Smarty version Smarty-3.1.6, created on 2017-01-10 15:42:17
          compiled from "../Tpl/admin\Manager\login.html" */ ?>
-<?php /*%%SmartyHeaderCode:19345587118575e3213-68878080%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1914258749059ae19d9-38388368%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'd459575a180397dd29d179a99602296abf1c2b11' => 
     array (
       0 => '../Tpl/admin\\Manager\\login.html',
-      1 => 1483892469,
+      1 => 1484015301,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '19345587118575e3213-68878080',
+  'nocache_hash' => '1914258749059ae19d9-38388368',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.6',
-  'unifunc' => 'content_5871185787116',
+  'variables' => 
+  array (
+    'lang' => 0,
+  ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.6',
+  'unifunc' => 'content_58749059da694',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5871185787116')) {function content_5871185787116($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<?php if ($_valid && !is_callable('content_58749059da694')) {function content_58749059da694($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -46,17 +50,20 @@ User_Login.css" type="text/css" rel="stylesheet" />
                             <li class="user_main_c">
                                 <div class="user_main_box">
                                     <ul>
-                                        <li class="user_main_text">用户名： </li>
+                                        <li class="user_main_text"><?php echo $_smarty_tpl->tpl_vars['lang']->value['USERNAME'];?>
+： </li>
                                         <li class="user_main_input">
                                             <input class="TxtUserNameCssClass" id="admin_user" maxlength="20" name="mg_name"> </li></ul>
                                     <ul>
-                                        <li class="user_main_text">密&nbsp;&nbsp;&nbsp;&nbsp;码： </li>
+                                        <li class="user_main_text"><?php echo $_smarty_tpl->tpl_vars['lang']->value['PASSWORD'];?>
+： </li>
                                         <li class="user_main_input">
                                             <input class="TxtPasswordCssClass" id="admin_psd" name="mg_pwd" type="password">
                                         </li>
                                     </ul>
                                     <ul>
-                                        <li class="user_main_text">验证码： </li>
+                                        <li class="user_main_text"><?php echo $_smarty_tpl->tpl_vars['lang']->value['VERIFYCODE'];?>
+： </li>
                                         <li class="user_main_input">
                                             <input class="TxtValidateCodeCssClass" id="captcha" name="captcha" type="text">
                                             <!--<img src="<?php echo @ADMIN_IMAGE_URL;?>

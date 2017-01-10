@@ -1,0 +1,30 @@
+[ 2017-01-10T10:23:09+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Manager/login/hl/zh-tw
+ERR: Syntax Error in template "../Tpl/admin\Manager\login.html"  on line 26 "&lt;li class=&quot;user_main_text&quot;&gt;{$smarty.language.username}： &lt;/li&gt;" $smarty.language is invalid
+
+[ 2017-01-10T11:17:16+08:00 ] 127.0.0.1 /shop/go/index.php/
+ERR: Syntax Error in template "../Tpl/home\public\layout.html"  on line 22 "&lt;div&gt;{$smarty.session.username . '---'}&lt;/div&gt;"  - Unexpected " ", expected one of: INTEGER
+
+[ 2017-01-10T16:30:02+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Index/left
+ERR: Syntax Error in template "../Tpl/admin\Index\left.html"  on line 39 "&lt;a class=menuparent onclick=expand(1) href=&quot;javascript:void(0);&quot;&gt;{p_v['auth_name']}&lt;/a&gt;&lt;/td&gt;"  - Unexpected "[", expected one of: "}" , " "
+
+[ 2017-01-10T18:30:03+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Role/showlist
+ERR: Action:select您所请求的方法不存在！
+
+[ 2017-01-10T18:30:07+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Role/showlist
+ERR: Action:select您所请求的方法不存在！
+
+[ 2017-01-10T18:30:11+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Role/showlist
+ERR: Action:select您所请求的方法不存在！
+
+[ 2017-01-10T19:33:05+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Role/distribute
+ERR: 参数错误或者未定义:role_id
+
+[ 2017-01-10T19:48:04+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Role/distribute/role_id/2
+ERR: Syntax Error in template "../Tpl/admin\Role\distribute.html"  on line 45 "&lt;/li&gt;" unclosed {if} tag
+
+[ 2017-01-10T19:53:50+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Role/distribute
+ERR: 参数错误或者未定义:role_id
+
+[ 2017-01-10T19:53:54+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Role/distribute
+ERR: 参数错误或者未定义:role_id
+

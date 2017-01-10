@@ -37,15 +37,24 @@
 				
 				// 表单验证
 				$result = $user_model->create();
+				var_dump($result);
 				if ( $result ) {
 					
 					// 爱好的数组变为字符串
 					$user_model->user_hobby = implode($_POST['user_hobby'], ',');
 					
+					// 加密密码
+//					$user_model->password = md5($_POST['password']);
+					
+					// 自动完成 加密密码
+					
 					$user_id = $user_model->add();
 					
 					if ( isset($user_id) ) {
-						echo '注册成功';
+//						echo '注册成功';
+						// 写入session
+						session('username', $_POST['username']);
+						$this->redirect('/', '注册成功,即将跳转', 3);
 					} else {
 						echo '注册失败';
 					}
@@ -59,6 +68,17 @@
 			
 		} 
 		
+		/**
+		 * 退出登陆
+		 */		
+		public function logout() {
+			
+			// 清除session信息
+			session(null);
+			// 跳转登录页
+			$this->redirect('User/register', '退出成功', 3);
+			
+		}
 		
 		public function number() {
 			

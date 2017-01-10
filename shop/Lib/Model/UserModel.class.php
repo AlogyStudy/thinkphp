@@ -2,6 +2,19 @@
 
 	class UserModel extends Model {
 		
+		// 自动完成    // 自动完成定义
+		protected $_auto = array(
+//			array('填充字段', '填充内容', ['填充条件', '附加规则'])
+			array('password', 'md5', 3, 'function'),
+			array('user_time', 'time', 1, 'function')
+		);
+		
+		// 自动映射, 把一个 form表单中的name和 数据库中的字段对应起来
+		protected $_map = array(
+			'email' => 'user_email',
+			'qq' => 'user_qq'
+		);		
+		
 		// 是否批处理验证
     protected $patchValidate   =  true;
 		

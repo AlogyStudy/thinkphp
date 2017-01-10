@@ -6,7 +6,12 @@
 	class ManagerAction extends Action {
 		// 登陆系统
 		public function login() {
-		
+			
+			// 读取语言变量信息 
+			// L(name); 读取指定语言信息
+			// L();  把全部语言信息以数组信息返回
+			$lang = L();
+			
 			if ( !empty($_POST) ) {
 				
 				// 验证码
@@ -38,7 +43,8 @@
 					echo '验证码不正确';
 				}
 			}
-			 	
+			
+			$this->assign('lang', $lang); 	
 			$this->display();
 		}
 		
@@ -77,6 +83,27 @@
 		} 
 		
 		
+		public function showlist() {
+			// 获得全部管理员信息
+			$manager = new ManagerModel();
+			$info = $manager->select();
+			
+			// 获得角色信息
+			$role = new RoleModel();
+			$role = $role->select();
+			var_dump($role);
+			$role_info = array();
+			foreach($role as $v) {
+				$role_info[$v['role_id']] = $v['role_name']; 
+			}
+			
+			var_dump($role_info);
+			die;
+			$this->assign('role_info', $role_info);
+			
+			$this->assign('info', $info);
+			$this->display();
+		}	
 		
 	}	 
 
