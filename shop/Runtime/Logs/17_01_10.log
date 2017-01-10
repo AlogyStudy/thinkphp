@@ -28,3 +28,9 @@ ERR: 参数错误或者未定义:role_id
 [ 2017-01-10T19:53:54+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Role/distribute
 ERR: 参数错误或者未定义:role_id
 
+[ 2017-01-10T23:05:15+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Manager/add
+ERR: Syntax Error in template "../Tpl/admin\Manager\add.html"  on line 31 "{htmloptions}" unknown tag "htmloptions"
+
+[ 2017-01-10T23:05:22+08:00 ] 127.0.0.1 /shop/go/index.php/admin/Manager/add
+ERR: Syntax Error in template "../Tpl/admin\Manager\add.html"  on line 31 "&lt;!--{htmloptions}--&gt;" unknown tag "htmloptions"
+

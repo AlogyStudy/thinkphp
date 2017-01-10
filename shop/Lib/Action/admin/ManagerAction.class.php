@@ -91,18 +91,47 @@
 			// 获得角色信息
 			$role = new RoleModel();
 			$role = $role->select();
-			var_dump($role);
 			$role_info = array();
 			foreach($role as $v) {
 				$role_info[$v['role_id']] = $v['role_name']; 
 			}
 			
-			var_dump($role_info);
-			die;
 			$this->assign('role_info', $role_info);
 			
 			$this->assign('info', $info);
 			$this->display();
+		}
+		
+		public function add() {
+			
+			if ( !empty($_POST) ) {
+	
+					
+				$manager = new ManagerModel();
+				$data = $manager->create();
+				$rst = $manager->addManger($data);
+				
+				if ( $rst ) {
+					$this->success('添加管理员成功', U('Manager/showlist'));
+				}
+				
+			} else {
+				
+				// 获得角色信息
+				$role = new RoleModel();
+				$role = $role->select();
+				$role_info = array();
+				foreach($role as $v) {
+					$role_info[$v['role_id']] = $v['role_name']; 
+				}
+				
+				$this->assign('role_info', $role_info);
+				
+				$this->assign('info', $info);
+				
+				$this->display();
+			}
+			
 		}	
 		
 	}	 
